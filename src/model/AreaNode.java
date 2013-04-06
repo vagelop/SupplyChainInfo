@@ -2,12 +2,9 @@ package model;
 
 import java.util.ArrayList;
 
-public class Node {
-	
-	private String region;
+public class AreaNode {
 	private GeographicLocation location;
 	private ArrayList<Surplus> surpluses;
 	private ArrayList<Lack> lacks;
-	private ArrayList<ExpectedSurplus> expectedSurpluses;
-	private ArrayList<Lack> expectedLacks;
+	private ArrayList<Expectation> expectations;
 }
